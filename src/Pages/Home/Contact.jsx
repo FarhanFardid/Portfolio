@@ -6,11 +6,11 @@ const Contact = () => {
             <div className="hero p-4 max-h-screen bg-gradient-to-r from-[#3a113a] to-[#57127a]">
   <div className="hero-content flex-col lg:flex-row">
     <div className="text-center lg:text-left">
-      <h1 className="text-5xl font-bold text-yellow-400">Let's Connect</h1>
-      <p className="py-6 text-white font-medium text-lg">
+      <h1 className=" text-2xl md:text-5xl font-bold text-yellow-400">Let's Connect</h1>
+      <p className=" py-2 md:py-6 text-white font-medium  text-sm md:text-lg">
 I'm excited to connect and explore potential collaborations. Whether you have a project idea in mind or simply want to discuss web development trends, feel free to reach out. Let's create something exceptional together – drop me a message, and I'll get back to you promptly.</p>
     </div>
-    <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-300">
+    <div className="card flex-shrink-0 w-full md:max-w-sm max-w-xs shadow-2xl bg-base-300">
       <div className="card-body">
         <div className="form-control">
           <label className="label">

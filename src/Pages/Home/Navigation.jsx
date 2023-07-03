@@ -15,12 +15,12 @@ const Navigation = () => {
           className="mr-3 h-16 w-20 p-1 "
           src={logo}
         />
-        <span className="self-center  whitespace-nowrap text-3xl text-white font-bold dark:text-white">
+        <span className="self-center  whitespace-nowrap text-xl md:text-3xl text-white font-bold dark:text-white">
           Farhan Fardid
         </span>
       </Navbar.Brand>
       <div className="flex md:order-2">
-      <a href='https://drive.google.com/file/d/1hJLv10TTbzcDBliZ6FoX2ZGgK-XaY-SN/view' target='blank'><Button className='bg-purple-700 hover:bg-purple-900'>
+      <a href='https://drive.google.com/file/d/1hJLv10TTbzcDBliZ6FoX2ZGgK-XaY-SN/view' target='blank'><Button className= 'btn-xs md:btn-md  bg-purple-700 hover:bg-purple-900'>
           View Resume
         </Button></a>  
         <Navbar.Toggle />

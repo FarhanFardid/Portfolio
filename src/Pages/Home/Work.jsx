@@ -13,7 +13,7 @@ const AutoplaySlider = withAutoplay(AwesomeSlider);
 const Work = () => {
     return (
         <div className=' bg-gradient-to-r from-[#0f0215] to-[#661e80]'>
-            <h3 className='text-5xl font-bold text-yellow-400 text-center py-5 '>What I do?</h3>
+            <h3 className='text-2xl md:text-5xl font-bold text-yellow-400 text-center md:py-5 py-1 '>What I do?</h3>
             <AutoplaySlider
     play={true}
     cancelOnInteraction={false} // should stop playing on user interaction
