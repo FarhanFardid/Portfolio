@@ -38,13 +38,13 @@ const Navigation = () => {
         <Navbar.Link href="#" >
          <p className='text-white hover:text-purple-400 font-medium text-lg'> Projects</p> 
         </Navbar.Link>
-        <Navbar.Link href="#">
+        {/* <Navbar.Link href="#">
         <p className='text-white hover:text-purple-400 font-medium text-lg'> About Me</p> 
-        </Navbar.Link>
+        </Navbar.Link> */}
        
-        <Navbar.Link href="#" >
+        {/* <Navbar.Link href="#" >
         <p className='text-white hover:text-purple-400 font-medium text-lg'> Contact</p> 
-        </Navbar.Link>
+        </Navbar.Link> */}
       </Navbar.Collapse>
     </Navbar>
 
