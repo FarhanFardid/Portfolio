@@ -12,7 +12,7 @@ import 'react-awesome-slider/dist/styles.css';
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 const Work = () => {
     return (
-        <div className='bg-gradient-to-r from-[#0f0215] to-[#661e80]'>
+        <div className='mb-5 bg-gradient-to-r from-[#0f0215] to-[#661e80]'>
             <h3 className='text-5xl font-bold text-yellow-400 text-center py-3 '>What I do?</h3>
             <AutoplaySlider
     play={true}
