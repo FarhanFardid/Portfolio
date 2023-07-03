@@ -20,9 +20,9 @@ const Navigation = () => {
         </span>
       </Navbar.Brand>
       <div className="flex md:order-2">
-        <Button className='bg-purple-700 hover:bg-purple-900'>
-          Download Resume
-        </Button>
+      <a href='https://drive.google.com/file/d/1hJLv10TTbzcDBliZ6FoX2ZGgK-XaY-SN/view' target='blank'><Button className='bg-purple-700 hover:bg-purple-900'>
+          View Resume
+        </Button></a>  
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse >
