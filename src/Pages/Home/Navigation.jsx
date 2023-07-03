@@ -7,7 +7,7 @@ const Navigation = () => {
 <Navbar
       fluid
       rounded
-      className='max-w-screen-2xl bg-black p-4'
+      className='max-w-screen-2xl bg-slate-900 p-4 bg-opacity-50 fixed top-0 w-full z-10'
     >
       <Navbar.Brand href="#">
         <img
@@ -15,7 +15,7 @@ const Navigation = () => {
           className="mr-3 h-16 w-20 p-1 "
           src={logo}
         />
-        <span className="self-center  whitespace-nowrap text-3xl text-purple-700 font-bold dark:text-white">
+        <span className="self-center  whitespace-nowrap text-3xl text-white font-bold dark:text-white">
           Farhan Fardid
         </span>
       </Navbar.Brand>
@@ -31,19 +31,19 @@ const Navigation = () => {
           href="#"
         
         >
-          <p   className='text-purple-600 hover:text-purple-400 font-medium text-lg'>
+          <p   className='text-white hover:text-purple-400 font-medium text-lg'>
             Home
           </p>
         </Navbar.Link>
         <Navbar.Link href="#" >
-         <p className='text-purple-600 hover:text-purple-400 font-medium text-lg'> Projects</p> 
+         <p className='text-white hover:text-purple-400 font-medium text-lg'> Projects</p> 
         </Navbar.Link>
         <Navbar.Link href="#">
-        <p className='text-purple-600 hover:text-purple-400 font-medium text-lg'> About Me</p> 
+        <p className='text-white hover:text-purple-400 font-medium text-lg'> About Me</p> 
         </Navbar.Link>
        
         <Navbar.Link href="#" >
-        <p className='text-purple-600 hover:text-purple-400 font-medium text-lg'> Contact</p> 
+        <p className='text-white hover:text-purple-400 font-medium text-lg'> Contact</p> 
         </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
