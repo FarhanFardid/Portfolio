@@ -2,7 +2,7 @@ import image from '../../assets/images/intro-3.png'
 
 const Introduction = () => {
     return (
-        <div className="hero max-h-screen bg-base-200 bg-gradient-to-r from-[#3d104d] to-[#a48fac]">
+        <div className="hero max-h-screen bg-base-200 bg-gradient-to-r from-[#661e80] to-[#0f0215]">
         <div className="hero-content flex-col lg:flex-row">
           <img src={image} className="max-w-sm rounded-lg shadow-2xl " />
           <div className='p-5'>
