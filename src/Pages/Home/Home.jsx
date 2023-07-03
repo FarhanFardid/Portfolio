@@ -12,6 +12,7 @@ const Home = () => {
             <Introduction></Introduction>
             <Work></Work>
             <Skills></Skills>
+            
         </div>
     );
 };

@@ -21,8 +21,8 @@ import tailwind from '../../assets/images/skills/tailwind.png'
 
 const Skills = () => {
     return (
-        <div className='bg-gradient-to-r from-[#661e80] to-[#0f0215]'>
-           <h3 className='text-5xl font-bold text-yellow-400 text-center py-3 '>Skills</h3>
+        <div className='bg-gradient-to-r from-[#661e80] to-[#0f0215] p-3'>
+           <h3 className='text-5xl font-bold text-yellow-400 text-center py-7 '>Skills</h3>
             <div className='p-3'>
       <Swiper
         slidesPerView={5}
