@@ -50,7 +50,7 @@ Node, Express.js, and MongoDB.</p>
 a chef’s recipe item as the favorite.</p>
     <p><span className='font-bold'>Technologies:</span>  React, React Router, Firebase, Bootstrap, React Bootstrap, React Toastify, CORS, Node, and Express.js.</p>
     <div className="card-actions justify-between pt-2">
-        <a href='https://chef-recipe-hunter-23ee6.web.app/'  target='blank'>  <button className="btn bg-purple-700 text-white font-bold hover:bg-purple-800">Live Site</button></a>
+        <a href='https://650317eb0fe283046f490709--steady-dusk-a4e551.netlify.app/'  target='blank'>  <button className="btn bg-purple-700 text-white font-bold hover:bg-purple-800">Live Site</button></a>
         <a href='https://github.com/FarhanFardid/Cafe_Fajitas_Front_End'  target='blank'>  <button className="btn bg-purple-700 text-white font-bold hover:bg-purple-800">Front End</button></a>
         <a href='https://github.com/FarhanFardid/Cafe_Fajitas_Back_End'  target='blank'>  <button className="btn bg-purple-700 text-white font-bold hover:bg-purple-800">Back End</button></a>
     

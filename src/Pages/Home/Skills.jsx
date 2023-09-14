@@ -26,7 +26,7 @@ const Skills = () => {
             <div className='p-3'>
       <Swiper
         slidesPerView={3}
-        spaceBetween={10}
+        spaceBetween={25}
         pagination={{
           clickable: true,
         }}
