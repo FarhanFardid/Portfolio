@@ -18,9 +18,12 @@ v. Version Control: Proficient in Git and GitHub for version control and collabo
 ### Projects
 Here are some Full Stack key projects I've developed and worked on:
 
-Project 1: Brief description of the project and my role.
-Project 2: Brief description of the project and my role.
-Project 3: Brief description of the project and my role.
+Project 1: Sports Blitz - https://sports-blitz-2349b.web.app/
+
+Project 2: Diner Lounge - https://bistro-boss-e5657.web.app/
+
+Project 3: Kids Heaven - https://kids-heaven-client.web.app/
+
 For more details and to view my full portfolio, please visit my portfolio website.
 
 
