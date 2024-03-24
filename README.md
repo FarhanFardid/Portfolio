@@ -6,9 +6,13 @@ I am a passionate web developer with a strong foundation in front-end and back-e
 
 ### Skills
 i. Frontend Development: Proficient in HTML, CSS, JavaScript, and modern frontend frameworks like React.js.
+
 ii. Backend Development: Experienced in server-side programming with Node.js, Express.js, and database management with MongoDB.
+
 iii. UI/UX Development: Skilled in creating intuitive and visually appealing user interfaces.
+
 iv. Responsive Design: Experienced in developing responsive and mobile-friendly websites for seamless user experiences across devices.
+
 v. Version Control: Proficient in Git and GitHub for version control and collaboration with team members.
 
 ### Projects
@@ -38,8 +42,8 @@ I'm always open to new opportunities and collaborations. Feel free to reach out 
 
 Email: farhanfardid62@gmail.com
 
-LinkedIn: [https://www.linkedin.com/in/farhan-fardid-3334a3278/]
+LinkedIn: https://www.linkedin.com/in/farhan-fardid-3334a3278/
 
-GitHub: [https://github.com/FarhanFardid]
+GitHub: https://github.com/FarhanFardid
 
 Let's connect and build something amazing together! 🚀
