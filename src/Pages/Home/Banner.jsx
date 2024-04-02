@@ -7,7 +7,7 @@ const Banner = () => {
             <div className="hero min-h-screen" style={{backgroundImage: `url(${banner})`}}>
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-center text-neutral-content">
-    <div className="max-w-4xl bg-slate-900 bg-opacity-25 p-5 rounded-lg">
+    <div className="max-w-4xl bg-slate-900 bg-opacity-50 p-5 rounded-lg">
       <h1 className="mb-5 text-3xl md:text-6xl font-bold"> <span className='text-yellow-400'>Hi,</span>  I am Farhan Fardid</h1>
       <h4 className='mb-5 text-xl md:text-3xl font-semibold text-violet-500'>MERN Stack Web Developer</h4>
       <h3 className='text-xl md:text-4xl font-bold mb-5 text-yellow-400'>& </h3>

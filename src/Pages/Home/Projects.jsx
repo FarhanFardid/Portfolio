@@ -6,7 +6,7 @@ import cafe from '../../assets/images/projects/cafe.png'
 
 const Projects = () => {
     return (
-        <div>
+        <div id="projects">
             <h3 className='text-2xl md:text-5xl font-bold text-yellow-400 text-center md:py-7 py-3 '>Projects</h3>
             <div className="card lg:card-side bg-base-100 shadow-xl  border-2">
   <figure className='w-100'><img src={sportz} alt="sports" className='p-2 w-full'/></figure>

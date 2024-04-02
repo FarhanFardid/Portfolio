@@ -7,15 +7,15 @@ const Footer = () => {
             <footer className="footer p-10 bg-black text-white">
   <div>
    <img src={logo} alt="logo" className='h-24 w-24 rounded-full' />
-    <p>Farhan Fardid<br/>Providing You Dynamic Reliable Websites.</p>
+    <p className='font-bold '><span className='text-violet-800'>Farhan Fardid</span><br/>Providing You Dynamic Reliable Websites.</p>
   </div> 
   <div>
     <span className="footer-title">Services</span> 
-    <a className="">Full Stack Web development</a> 
-    <a className="">Front End Development</a> 
-    <a className="">Back End Development</a> 
-    <a className="">Responsive Website Design</a>
-    <a className="">Product Landing Page</a>
+    <a className="font-semibold">Full Stack Web development</a> 
+    <a className="font-semibold">Front End Development</a> 
+    <a className="font-semibold">Back End Development</a> 
+    <a className="font-semibold">Responsive Website Design</a>
+    <a className="font-semibold">Product Landing Page</a>
   </div> 
   <div>
    <span className="footer-title">Social</span> 
@@ -27,7 +27,7 @@ const Footer = () => {
     </div>
   </div> 
   <div>
-    <p><span className='text-red-700'>Copyright © 2023</span>  - All right reserved by @ Farhan Fardid.</p>
+    <p><span className='text-red-600 font-bold'>Copyright © {new Date().getFullYear()}</span>  - All right reserved by @ Farhan Fardid.</p>
   </div>
 </footer>
         </div>

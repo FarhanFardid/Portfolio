@@ -36,8 +36,9 @@ import vite from '../../assets/images/skills/vite.png'
 
 const Skills = () => {
     return (
-        <div className='bg-gradient-to-r from-[#661e80] to-[#0f0215] p-3'>
+        <div id="tech_Stack" className='bg-gradient-to-r from-[#661e80] to-[#0f0215] p-3'>
            <h3 className=' text-2xl md:text-5xl font-bold text-yellow-400 text-center md:py-7 py-5 '>Tech Stack</h3>
+           <p className=' text-sm md:text-xl font-semibold text-white text-center md:py-3 py-1 '>Explore my diverse tech stack encompassing JavaScript, React, Node.js, Express.js, MongoDB, and an array of other essential tools and technologies, elegantly displayed with effortless automatic swiping </p>
             <div className='p-3'>
       <Swiper
    
