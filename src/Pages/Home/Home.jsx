@@ -14,8 +14,9 @@ const Home = () => {
             <Banner></Banner>
             <Introduction></Introduction>
             <Education></Education>
-            <Work></Work>
             <Skills></Skills>
+            <Work></Work>
+            
             <Projects></Projects>
             <Contact></Contact>
             
