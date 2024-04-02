@@ -16,7 +16,7 @@ const Certificate = () => {
     <h2 className="card-title font-bold text-violet-800 text-sm md:text-lg">Web Development Certificate</h2>
     <p className='text-black font-semibold text-xs md:text-base'>Provider: Programming Hero </p>
     <div className="card-actions">
-      <button className="btn btn-primary btn-xs md:btn-md font-medium"><a href="https://drive.google.com/file/d/1U2a7UwFbRfIhGqJkfVhi5lMrp11fLeLp/view" target='blank'>View Credentials</a> </button>
+      <a href="https://drive.google.com/file/d/1U2a7UwFbRfIhGqJkfVhi5lMrp11fLeLp/view" target='blank'><button className="btn btn-primary btn-xs md:btn-md font-medium">View Credentials </button></a>
     </div>
   </div>
 </div>
@@ -28,7 +28,7 @@ const Certificate = () => {
     <h2 className="card-title font-bold text-violet-800 text-sm md:text-lg">Responsive We Design Certificate</h2>
     <p className='text-black font-semibold text-xs md:text-base'>Provider: Free Code Camp</p>
     <div className="card-actions">
-    <button className="btn btn-primary btn-xs md:btn-md font-medium"><a href="https://www.freecodecamp.org/certification/FarhanFardid62/responsive-web-design" target='blank'>View Credentials</a> </button>
+   <a href="https://www.freecodecamp.org/certification/FarhanFardid62/responsive-web-design" target='blank'> <button className="btn btn-primary btn-xs md:btn-md font-medium">View Credentials </button></a>
     </div>
   </div>
 </div>
