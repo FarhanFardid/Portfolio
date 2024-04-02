@@ -59,12 +59,12 @@ Node, Express.js, and MongoDB etc.</p>
   <figure className='w-100'><img src={task} alt="diner" className='p-2 w-full'/></figure>
   <div className="card-body">
     <h2 className="card-title font-bold text-black">Task Genius</h2>
-    <p className='text-black'><span className='font-bold'>Introducing Task Genius :</span>  A full stack comprehensive Restaurant Management System that caters to both administrators and customers. With separate admin and customer dashboards, Diner Lounge offers a seamless experience for managing restaurant operations and placing orders. Firebase authentication and React Stripe for payment processing. (Please visit the live site for better experience and visit repository for more details.)</p>
-    <p className='text-black'><span className='font-bold'>Tools & Technologies:</span>  React, React Router, Firebase, Node, Express.js, MongoDB, Tailwind CSS, Axios, TanStack Query, React Hook Form, JWT, DaisyUI etc.</p>
+    <p className='text-black'><span className='font-bold'>Introducing Task Genius :</span>  A a full-stack project designed to streamline task management for users. This platform allows users to efficiently add, update, and remove tasks, ensuring a seamless workflow. It include the ability to add new tasks by providing details such as name, description etc. Updating task status. View all tasks and can removed completed tasks. (Please visit the live site for better experience and visit repository for more details.)</p>
+    <p className='text-black'><span className='font-bold'>Tools & Technologies:</span>  React, React Router, Node, Express.js, MongoDB, Tailwind CSS, React Hook Form, DaisyUI etc.</p>
     <div className="card-actions justify-between pt-2">
-        <a href='https://bistro-boss-e5657.web.app/'  target='blank'>  <button className="btn  btn-xs md:btn-md bg-purple-700 text-white font-bold hover:bg-purple-800">Live Site</button></a>
-        <a href='https://github.com/FarhanFardid/Diner_Lounge_Client'  target='blank'>  <button className="btn btn-xs md:btn-md bg-purple-700 text-white font-bold hover:bg-purple-800">Front End</button></a>
-        <a href='https://github.com/FarhanFardid/Diner_Lounge_server'  target='blank'>  <button className="btn btn-xs md:btn-md bg-purple-700 text-white font-bold hover:bg-purple-800">Back End</button></a>
+        <a href='https://task-management-genius.netlify.app/'  target='blank'>  <button className="btn  btn-xs md:btn-md bg-purple-700 text-white font-bold hover:bg-purple-800">Live Site</button></a>
+        <a href='https://github.com/FarhanFardid/Task_Management'  target='blank'>  <button className="btn btn-xs md:btn-md bg-purple-700 text-white font-bold hover:bg-purple-800">Front End</button></a>
+        <a href='https://github.com/FarhanFardid/Task_Management_Backend'  target='blank'>  <button className="btn btn-xs md:btn-md bg-purple-700 text-white font-bold hover:bg-purple-800">Back End</button></a>
     
     </div>
   </div>
