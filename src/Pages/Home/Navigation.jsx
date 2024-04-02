@@ -27,34 +27,35 @@ const Navigation = () => {
       </div>
       <Navbar.Collapse>
         <Navbar.Link href="#">
-          <p className="text-white hover:text-purple-400 font-medium text-lg">
+          <p className="text-white hover:text-purple-600 font-medium text-lg">
             Home
           </p>
         </Navbar.Link>
           <Navbar.Link href="#my_profile">
-        <p className='text-white hover:text-purple-400 font-medium text-lg'> Profile</p> 
+        <p className='text-white hover:text-purple-600 font-medium text-lg'> Profile</p> 
         </Navbar.Link>
           <Navbar.Link href="#tech_Stack">
-        <p className='text-white hover:text-purple-400 font-medium text-lg'> Tech Stack</p> 
+        <p className='text-white hover:text-purple-600 font-medium text-lg'> Tech Stack</p> 
         </Navbar.Link>
           <Navbar.Link href="#services">
-        <p className='text-white hover:text-purple-400 font-medium text-lg'> Services</p> 
+        <p className='text-white hover:text-purple-600 font-medium text-lg'> Services</p> 
         </Navbar.Link>
         <Navbar.Link href="#projects">
-          <p className="text-white hover:text-purple-400 font-medium text-lg">
+          <p className="text-white hover:text-purple-600 font-medium text-lg">
             Projects
           </p>
         </Navbar.Link>
+        <Navbar.Link href="#credential">
+          <p className="text-white hover:text-purple-600 font-medium text-lg">
+            Credential
+          </p>
+        </Navbar.Link>
         <Navbar.Link href="#contact">
-          <p className="text-white hover:text-purple-400 font-medium text-lg">
+          <p className="text-white hover:text-purple-600 font-medium text-lg">
             Contact Me
           </p>
         </Navbar.Link>
       
-
-        {/* <Navbar.Link href="#" >
-        <p className='text-white hover:text-purple-400 font-medium text-lg'> Contact</p> 
-        </Navbar.Link> */}
       </Navbar.Collapse>
     </Navbar>
   );

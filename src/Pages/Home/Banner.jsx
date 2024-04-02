@@ -13,7 +13,7 @@ const Banner = () => {
       <h3 className='text-xl md:text-4xl font-bold mb-5 text-yellow-400'>& </h3>
       <h1 className="mb-5 text-3xl md:text-5xl font-bold">Welcome to My Web World</h1>
       <h3 className="mb-5 text-xl md:text-4xl font-bold text-yellow-400">
-Unveil the prowess of my web development skills and witness innovation at its finest.</h3>
+Reveal the depth of my web development skills and witness innovation at its finest.</h3>
    
       <button className="btn btn-primary"><a href= "#contact" >Let's Connect</a> </button>
     </div>

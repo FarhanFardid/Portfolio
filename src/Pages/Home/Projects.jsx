@@ -8,7 +8,7 @@ import task from '../../assets/images/projects/Task.jpg'
 
 const Projects = () => {
     return (
-        <div id="projects">
+        <div id="projects" className='bg-gradient-to-r from-[#661e80] to-[#0f0215] py-3'>
             <h3 className='text-2xl md:text-5xl font-bold text-yellow-400 text-center md:py-7 py-3 '>Projects</h3>
             <div className="card lg:card-side bg-violet-400 shadow-xl  border-2">
   <figure className='w-100'><img src={sportz} alt="sports" className='p-2 w-full'/></figure>
