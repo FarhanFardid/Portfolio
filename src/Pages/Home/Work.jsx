@@ -16,6 +16,7 @@ const Work = () => {
     return (
         <div id="services" className=' bg-gradient-to-r from-[#0f0215] to-[#661e80]'>
             <h3 className='text-2xl md:text-5xl font-bold text-yellow-400 text-center md:py-5 py-1 '>Services</h3>
+            <p className=' text-sm md:text-xl font-semibold text-white text-center md:py-5 py-1 '> Elevate your digital presence with my comprehensive suite of services, including full-stack and MERN stack development, frontend and backend development, seamless API integration, responsive web design, and captivating product landing page development.</p>
             <AutoplaySlider
     play={true}
     cancelOnInteraction={false} // should stop playing on user interaction
