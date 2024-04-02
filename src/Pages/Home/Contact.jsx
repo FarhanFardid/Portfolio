@@ -3,7 +3,7 @@ import { FaFacebookSquare, FaLinkedin, FaWhatsappSquare } from "react-icons/fa";
 
 const Contact = () => {
     return (
-        <div>
+        <div id="contact">
             <div className="hero p-4 max-h-screen bg-gradient-to-r from-[#3a113a] to-[#57127a]">
   <div className="hero-content flex-col lg:flex-row">
     <div className="text-center lg:text-left">

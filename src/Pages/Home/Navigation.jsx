@@ -7,7 +7,7 @@ const Navigation = () => {
 <Navbar
       fluid
       rounded
-      className='max-w-screen-2xl bg-slate-900 p-4 bg-opacity-50 fixed top-0 w-full z-10'
+      className='max-w-screen-2xl bg-slate-900 p-4 bg-opacity-70 fixed top-0 w-full z-10'
     >
       <Navbar.Brand href="#">
         <img
@@ -20,7 +20,7 @@ const Navigation = () => {
         </span>
       </Navbar.Brand>
       <div className="flex md:order-2">
-      <a href='https://drive.google.com/file/d/1hJLv10TTbzcDBliZ6FoX2ZGgK-XaY-SN/view' target='blank'><Button className= 'btn-xs md:btn-md  bg-purple-700 hover:bg-purple-900'>
+      <a href='https://drive.google.com/file/d/1Zn60edlY3t7iHKcr7ekMTeQbTnrIBgU8/view' target='blank'><Button className= 'btn-xs md:btn-md  bg-purple-700 hover:bg-purple-900'>
           View Resume
         </Button></a>  
         <Navbar.Toggle />
