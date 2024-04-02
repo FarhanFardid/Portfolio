@@ -4,14 +4,14 @@ import { FaFacebookSquare, FaLinkedin, FaWhatsappSquare } from "react-icons/fa";
 const Contact = () => {
     return (
         <div id="contact">
-            <div className="hero p-4 max-h-screen bg-gradient-to-r from-[#3a113a] to-[#57127a]">
+            <div className="hero p-4  bg-gradient-to-r from-[#3a113a] to-[#57127a]">
   <div className="hero-content flex-col lg:flex-row">
     <div className="text-center lg:text-left">
       <h1 className=" text-2xl md:text-5xl font-bold text-yellow-400">Let's Connect</h1>
       <p className=" py-2 md:py-6 text-white font-medium  text-sm md:text-lg">
-I'm excited to connect and explore potential collaborations. Whether you have a project idea in mind or simply want to discuss web development trends, feel free to reach out. Let's create something exceptional together – drop me a message, and I'll get back to you promptly. You can also connect with me through Email, LinkedIn, WhatsApp, Facebook.</p>
+I'm excited to connect and explore potential collaborations. Whether you have a project idea in mind or simply want to discuss web development trends, feel free to reach out. Let's create something exceptional together.<br></br> Drop me an Email at farhanfardid62@gmail.com, and I'll get back to you promptly. You can also connect with me through  LinkedIn, WhatsApp & Facebook.</p>
 <p className=" py-2  text-white font-medium  text-sm md:text-lg">Email: farhanfardid62@gmail.com<br/>
-Phone: +880 01968820121</p>
+Phone: +880 1968820121</p>
 <div className="flex  gap-4 justify-center">
       <a href='https://www.facebook.com/farhan.fardid/' target='blank' ><FaFacebookSquare className='h-6 w-6 text-blue-700 bg-white'/> </a> 
       <a href='https://www.linkedin.com/in/farhan-fardid-3334a3278/' target='blank'><FaLinkedin className='h-6 w-6 text-blue-800 bg-white'/></a> 
