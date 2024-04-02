@@ -43,7 +43,7 @@ const Skills = () => {
       <Swiper
    
         spaceBetween={15}
-        slidesPerView={3.5}
+        slidesPerView={3}
         centeredSlides={true}
         autoplay={{
           delay: 1000,
@@ -57,244 +57,244 @@ const Skills = () => {
         className="mySwiper rounded-none"
       >
            <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={js} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">JavaScript</h2>
+    <h2 className="card-title text-xs md:text-lg">JavaScript</h2>
   </div>
 </div></SwiperSlide>
         <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={react} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">React JS</h2>
+    <h2 className="card-title text-xs md:text-lg">React JS</h2>
   </div>
 </div></SwiperSlide>
      
         <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={node} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">Node JS</h2>
+    <h2 className="card-title text-xs md:text-lg">Node JS</h2>
   </div>
 </div></SwiperSlide>
         <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={express} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">Express JS</h2>
+    <h2 className="card-title text-xs md:text-lg">Express JS</h2>
   </div>
 </div></SwiperSlide>
         <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={mongo} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">MongoDB</h2>
+    <h2 className="card-title text-xs md:text-lg">MongoDB</h2>
   </div>
 </div></SwiperSlide>
         <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={firebase} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">Firebase</h2>
+    <h2 className="card-title text-xs md:text-lg">Firebase</h2>
   </div>
 </div></SwiperSlide>
         <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={jwt} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">JWT</h2>
+    <h2 className="card-title text-xs md:text-lg">JWT</h2>
   </div>
 </div></SwiperSlide>
         <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={bs} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">Bootstrap</h2>
+    <h2 className="card-title text-xs md:text-lg">Bootstrap</h2>
   </div>
 </div></SwiperSlide>
         <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={tailwind} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">Tailwind CSS</h2>
+    <h2 className="card-title text-xs md:text-lg">Tailwind CSS</h2>
   </div>
 </div></SwiperSlide>
         <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={html} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">HTML5</h2>
+    <h2 className="card-title text-xs md:text-lg">HTML5</h2>
   </div>
 </div></SwiperSlide>
         <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={css} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">CSS3</h2>
+    <h2 className="card-title text-xs md:text-lg">CSS3</h2>
   </div>
 </div></SwiperSlide>
         <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={json} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">JSON</h2>
+    <h2 className="card-title text-xs md:text-lg">JSON</h2>
   </div>
 </div></SwiperSlide>
         <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={xml} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">XML</h2>
+    <h2 className="card-title text-xs md:text-lg">XML</h2>
   </div>
 </div></SwiperSlide>
         <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={router} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">React Router</h2>
+    <h2 className="card-title text-xs md:text-lg">React Router</h2>
   </div>
 </div></SwiperSlide>
         <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={hook} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">React Hook Form</h2>
+    <h2 className="card-title text-xs md:text-lg">React Hook Form</h2>
   </div>
 </div></SwiperSlide>
         <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={context} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">React Context API</h2>
+    <h2 className="card-title text-xs md:text-lg">React Context API</h2>
   </div>
 </div></SwiperSlide>
         <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={axios} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">Axios</h2>
+    <h2 className="card-title text-xs md:text-lg">Axios</h2>
   </div>
 </div></SwiperSlide>
         <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={Tanquery} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">React Query</h2>
+    <h2 className="card-title text-xs md:text-lg">React Query</h2>
   </div>
 </div></SwiperSlide>
         <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={atlas} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">MongoDB Atlas</h2>
+    <h2 className="card-title text-xs md:text-lg">MongoDB Atlas</h2>
   </div>
 </div></SwiperSlide>
         <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={c_pro} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">C Programming</h2>
+    <h2 className="card-title text-xs md:text-lg">C Programming</h2>
   </div>
 </div></SwiperSlide>
         <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={flowbite} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">Flowbite</h2>
+    <h2 className="card-title text-xs md:text-lg">Flowbite</h2>
   </div>
 </div></SwiperSlide>
         <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={material} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">Material UI</h2>
+    <h2 className="card-title text-xs md:text-lg">Material UI</h2>
   </div>
 </div></SwiperSlide>
         <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={daisy} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">Daisy UI</h2>
+    <h2 className="card-title text-xs md:text-lg">Daisy UI</h2>
   </div>
 </div></SwiperSlide>
         <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={git} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">Git</h2>
+    <h2 className="card-title text-xs md:text-lg">Git</h2>
   </div>
 </div></SwiperSlide>
         <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={github} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">GitHub</h2>
+    <h2 className="card-title text-xs md:text-lg">GitHub</h2>
   </div>
 </div></SwiperSlide>
         <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={api} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">REST Api</h2>
+    <h2 className="card-title text-xs md:text-lg">REST Api</h2>
   </div>
 </div></SwiperSlide>
 <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={VsCode} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">Vs Code</h2>
+    <h2 className="card-title text-xs md:text-lg">Vs Code</h2>
   </div>
 </div></SwiperSlide>
 <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={netlify} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">Netlify</h2>
+    <h2 className="card-title text-xs md:text-lg">Netlify</h2>
   </div>
 </div></SwiperSlide>
 <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={vite} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">Vite</h2>
+    <h2 className="card-title text-xs md:text-lg">Vite</h2>
   </div>
 </div></SwiperSlide>
         <SwiperSlide><div className="card md:w-80 w-40 bg-base-300 shadow-xl">
-  <figure className="px-2 pt-10">
+  <figure className="px-1 pt-2 md:px-2 md:pt-10">
     <img src={devtool} alt="skills" className="rounded-xl h-28 w-40 md:h-32 md:w-56" />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">Chrome DevTool</h2>
+    <h2 className="card-title text-xs md:text-lg">Chrome DevTool</h2>
   </div>
 </div></SwiperSlide>
       </Swiper>
